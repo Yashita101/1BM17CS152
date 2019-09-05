@@ -6,7 +6,6 @@ def password():
     length=int(input("How many characters would you want in your password?\n"))
     while ctr!=length:
         uppercase = [random.choice(string.ascii_uppercase)]
-        print(uppercase)
         lowercase = [random.choice(string.ascii_lowercase)]
         num = [random.choice(string.digits)]
         symbol = [random.choice(string.punctuation)]
